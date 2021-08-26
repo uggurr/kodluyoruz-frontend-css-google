@@ -1,0 +1,127 @@
+#center{
+    width: 900px;
+    height: 800px;
+    position: relative;
+    top: 48px;
+    margin: auto;
+    
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+}
+.search{
+    position: absolute;
+    top: 260px;
+    right: 200px;
+    width: 480px;
+    height: 25px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 0px 20px #c0c0c0;
+}
+.search-img{
+   position: absolute;
+   top: 263px;
+   left: 180px;
+}
+.voice-img{
+    position: absolute;
+    top: 263px;
+    right: 175px;
+ }
+ .search-btn{
+     position: absolute;
+     top: 310px;
+     left: 350px;
+     height: 36px;
+     
+     
+ }
+ .src-btn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f6368;
+    font-size: 14px;
+    outline: none;
+     border: 1px solid #f2f2f2;
+     box-shadow: 0px 0px 20px #c0c0c0;
+
+ }
+#navigation{
+    width: 300px;
+    height: 48px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+}
+.photo{
+    position: absolute;
+    background: url(../images/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    border-radius: 15px;
+    top: 9px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+ 
+}
+.menu{
+    position: absolute;
+    top: 9px;
+    right: 70px;
+    width: 24px;
+    height: 24px;
+}
+.image{
+    position: absolute;
+    top: 15px;
+    right: 130px;
+    color: black;
+    text-decoration: none;
+}
+.mail{
+    position: absolute;
+    top: 15px;
+    right: 210px;
+    color: black;
+    text-decoration: none;
+}
+/**************footer ****************/
+.footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    list-style: none;
+  }
+  
+  .footerli {
+    float: left;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
